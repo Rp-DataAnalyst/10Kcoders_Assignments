@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+</head>
+<body>
+      <center><fieldset style="background-color: antiquewhite;border-radius:6px"> <IMG style="background-color:white;" src="./../Logos/Telangana_State_Road_Transport_Corporation_logo.png" width="30px"></IMG><h2 style="color: blue;">TELANGANA STATE ROAD TRANSPORT CORPORATION</h2>
+            <br> 
+            <h2>GENERAL BUSS PASS APPLICATION</h2>
+      </fieldset ></center>
+      <br> 
+      <br>
+      <form  action="./../Html_Class_.html/submit.html" method="get" >
+            <fieldset>
+                  <legend style="background-color: rgb(50, 31, 155); border-radius: 10px; color: white;">
+                        Application Details:</legend>
+                        
+                        <label for="first" >Name:<span style="color: red;"><sup>*</sup></span></label>
+                       
+                        <input style="border-radius: 4px;"  type="text" name="firstname" id="first" autofocus required>
+                        
+                         &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <label  for="last">Father's/ Guardian's Name:<span style="color: red;"><sup>*</sup></span></label>
+                        <input style="border-radius: 4px;" type="text " name="last" id="last">
+                        <br> <br>
+                        <label for="date">Date of birth <span style="color: red;"><sup>*</sup></span></label>
+                        <input type="date" style="border-radius: 4px; " id="date" name="date" required>
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <label >Gender:</label>
+                        <label for="gender" > Male <span style="color: red;"><sup>*</sup></span></label>
+                        <input type="radio" name="gender" value="Male" id="gender">
+                        &nbsp; &nbsp;
+                        <label for="gender">Female <span style="color: red;"><sup>*</sup></span></label>
+                         <input type="radio" name="gender" value="Female" id="gender">
+                         <br>
+                         <br>
+                  
+                        <label for="age">Age As on:</label>
+                        <input type="text" name="age-years" size="2" id="age"> Year(s)
+                        <input type="text" name="age-months" size="1" id="age"> Month(s)
+                        <input type="text" name="age-days" size="1" id="age"> Day(s)
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <label for="aadhar">Aadhaar No:</label>
+                        <input type="text" name="aadhar" id="aadhar" autofocus maxlength="12">
+                        <br> 
+                        <br>
+                        
+                        <label for="phone no">WhatsApp No</label>
+                        <input type="text" name="phone no" id="phone no" required maxlength="10" >
+                        &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <label for="email">E-mail Id <span style="color: red;"><sup>*</sup></span></label>
+                        <input type="email" name="email" id="email" required>
+                        <br>
+                        <br>
+                        <label for="photo"> Photo <span style="red"><sup>*</sup></span></label>
+                        <input type="file" name="photo" id="photo"  autofocus required>
+
+            </fieldset>
+            <br>
+            <br>
+            <fieldset><legend style="color: white;background-color: rgb(16, 57, 134);">Residential Address Details:</legend>
+                  <label for="applicant"> Applicant Address <span style="color: red;"><sup>*</sup></span></label>
+                  <textarea type="text" id="applicant" name="applicant"  maxlength="20"></textarea> 
+                  &nbsp;  &nbsp; &nbsp; &nbsp;
+                  <label for="district"> District <span style="color: red;"><sup>*</sup></span></label>
+                  <select name="locations" id="district"  >
+                        <option value="Hyderabad">Hyderabad</option>
+                        <option value="Rangareddy">Rangareddy</option>
+                        <option value="Sangareddy">Sangareddy</option>
+                        <option value="Kamareddy">Kamareddy</option>
+                  </select>
+                  <br>
+                  <br>
+                  <label for="mandal">Mandal<span style="color: red;"><sup>*</sup></span></label>
+                  <select name="mandal" id="mandal" >
+                        <option value="mandal">Hyderabad</option>
+                  </select>
+                  <br>
+                  <br>
+                  <label for="village">Village <span style="color: red;"><sup>*</sup></span></label>
+                  <select name="village" id="Village">
+                        <option value="hyderabad">Hyderabad</option></select>
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+
+                  
+                   
+            </fieldset>
+            <br>
+            <br>
+            <fieldset><legend style="color: white ;background-color: rgb(41, 41, 112);">Pass Type Details</legend>
+            <label for="city">City <span style="color: red;"><sup>*</sup></span></label>
+            <select name="city" id="city"><option value="Hyderabad">Hyderabad</option></select>
+            <br>
+            <br>
+            <label for="passtype">Pass Type <span style="color: red;"><sup>*</sup></span></label>
+            <select name="passtype" id="passtype" >
+                  <option value="General Pass">General Pass</option>
+                  <option value="Seasong Pass">Season Pass</option>
+                  <option value="Freedom fighters pass">Freedom Fighters Pass</option>
+                  <option value="Student pass">Student Pass</option>
+            </fieldset>
+            <br>
+            <br>
+            <fieldset> 
+                  <legend style=" color: white;background-color: rgb(18, 80, 104);">Mode of Payement & Pass Collection</legend>
+                  <label for="mode of payment">Payment Mode <span style="color: red;"><sup>*</sup></span></label>
+                  <select name="mode of payment" id="mode of payment">
+                  <option value="pay at counter">Pay at counter</option></select>
+                  <br>
+                  <br>
+                  <label for="pass delivery mode">Pass Delivery Mode <span style="color: red;"><sup>*</sup></span></label>
+                  <select name="pass delivery" id="pass delivery mode">
+                  <option value="At counter"> At counter</option></select>
+                  <br>
+                  <br>
+                  <label for="select counter">Select counter at which want to collect Pass <span style="color: red;"><sup>*</sup></span></label>
+                  <select name="select counter" id="select counter">
+                        <option value="rtc Kukatpally">RTC Kukatpally</option>
+                        <option value="rtc borabanda">RTC Borabanda</option>
+                        <option value="rtc boinapally">RTC boinapally</option>
+                  </select>
+            </fieldset>
+            <br>
+            <br>
+            <fieldset>
+            <center>
+                  <img src="../Logos/Three-hard-Google-CAPTCHA-images.png" width="160px"
+                   >
+                   <br>
+                   <br>
+                   <input type="text">
+                   <br>
+                   <br>
+                   <input type="submit" name="simple">
+                   
+            </center>
+            </fieldset>
+
+            
+            
+           
+
+            
+            
+
+
+      </form>
+</body>
+</html>
