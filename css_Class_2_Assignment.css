@@ -1,0 +1,51 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+
+}
+.Garshana{
+      background-color: rgb(111, 166, 166);
+      width: 70%;
+      padding: 10px;
+      border: 3px black solid;
+      border-radius: 10px;
+      color: rgb(59, 52, 171);
+      
+      
+
+      
+
+}
+.Kabaali{
+      width: 70%;
+      background-color: rgb(181, 57, 57);
+      border: 6px rgb(182, 178, 44) dotted;
+      border-radius: 1.3pc;
+      color: bisque;
+      
+}
+.Rudraveena{
+      width: 70%;
+      background-color: rgb(96, 65, 119);
+      border: 6px black groove ;
+      border-radius: 1.3pc;
+      color:bisque;
+      border-radius: 1.3pc;
+}
+.Maniratnam{
+      width: 72%;
+      background-color:rgb(134, 90, 24) ;
+      border: 6px red dashed;
+      border-radius: 1.3pc;
+      color: chartreuse;
+}
+.Ram_Gopal_Varma{
+      width: 75%;
+      background-color: darkorange;
+      border: 2px blue solid;
+      border-radius: 1.3pc;
+      color: black;
+}
+
+      
